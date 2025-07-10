@@ -15,12 +15,19 @@ public class Car {
 
     void stepOnAccele(){
         speed = speed +10;
-        System.out.println("スピードが" + speed +"Km/hに増えました");
+        gasoline = gasoline -10;
+        
     }
     
     void stepOnBrake(){
         speed = speed -10;
-        System.out.println("スピードが" + speed +"Km/hに減りました");
+        
+    }
+
+    void refuel(int newGasoline) {
+        gasoline = gasoline + newGasoline;
+
+
     }
 
     void display(){
