@@ -8,6 +8,8 @@ public class Ex08 {
         while (i<=1000){
             System.out.print(i);
             int sum = i + j;
+            j=i;
+            i = sum;
         }
     }
 
