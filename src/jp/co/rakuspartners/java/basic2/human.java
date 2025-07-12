@@ -6,7 +6,7 @@ public class human {
           int power;
 
           void sayMyName(){
-            System.out.println("栗原菜奈");
+            System.out.println(lastName + firstName);
           }
           void eat(String food){
             if(food.equals("おにぎり")){
