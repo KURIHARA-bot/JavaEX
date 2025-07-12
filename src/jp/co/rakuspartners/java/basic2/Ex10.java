@@ -7,7 +7,7 @@ public class Ex10 {
 
     for(String friend:friends){
         System.out.println(friend + "さん");
-        
+         
 }
 }
 }

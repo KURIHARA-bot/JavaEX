@@ -2,10 +2,21 @@ package jp.co.rakuspartners.java.basic2;
 
 public class Ex03 {
     public static void main(String[] args) {
-        human g = new human();
+        human m = new human();
 
-        System.out.println(sayMyName("栗原菜奈"));
+        m.firstName="菜奈";
+        m.lastName="栗原";
+        m.sayMyName();
+        m.eat("おにぎり");
         
-    }
+    
 
+    human f = new human();
+
+        f.firstName="太郎";
+        f.lastName="山田";
+        f.sayMyName();
+        f.eat("カレー");
+
+}
 }

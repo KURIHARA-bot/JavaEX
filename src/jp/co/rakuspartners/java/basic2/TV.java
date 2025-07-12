@@ -13,6 +13,7 @@ public class TV {
 
     void setChannel (int newChannel){
         channel = newChannel;
+        
     }
     void display(){
         System.out.println("現在"+ channel +"チャンネルを表示しています");

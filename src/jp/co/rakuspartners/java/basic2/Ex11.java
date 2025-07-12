@@ -8,12 +8,20 @@ public class Ex11 {
     System.out.println(numbers[3]);
     
     for(int number:numbers){
-        System.out.println(number);
+        System.out.print(number);
     }
+    System.out.println();
 
-    for(int i=0;i<numbers.lengh;i++){
-        System.out.println(numbers[i]);
+    for(int i=0;i<numbers.length;i++){
+        System.out.print(numbers[i]);
     }
-    for(int i=0:i<numbers.lengh;i++)if(i%2==0)
+        System.out.println();
+
+    for(int i=0;i< numbers.length;i++){
+        if(numbers[i]%2!=0){
+        System.out.print(numbers[i]);
     }
+    }
+    System.out.println();
+}
 }
