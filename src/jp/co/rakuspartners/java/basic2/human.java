@@ -11,7 +11,7 @@ public class human {
             this.lastName = lastName;
             this.firstName = firstName;
             this.power = power;
-          }
+          } 
          public String toString(){
           return lastName + firstName + "さんのパワーは" + power + "です";
          }

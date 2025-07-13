@@ -1,9 +1,13 @@
 package jp.co.rakuspartners.java.basic2;
 
 public class Dog {
+
+    Dog(String name){
+        this.name=name;
+    };
     String name;
 
-    public void cry(){
+     void cry(){
         System.out.println("Woof woof!!");
     }
 

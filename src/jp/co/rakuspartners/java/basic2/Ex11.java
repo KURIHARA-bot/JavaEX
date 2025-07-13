@@ -12,7 +12,7 @@ public class Ex11 {
     }
     System.out.println();
 
-    for(int i=0;i<numbers.length;i++){
+    for(int i=numbers.length-1;i>=0;i--){
         System.out.print(numbers[i]);
     }
         System.out.println();
@@ -23,5 +23,10 @@ public class Ex11 {
     }
     }
     System.out.println();
+
+    int count;
+    for(int i=0;i<numbers.length;i++){
+        if(numbers[i]%2==0)
+    }
 }
 }
