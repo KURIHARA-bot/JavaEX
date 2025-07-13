@@ -12,6 +12,8 @@ public class Ex11 {
     }
     System.out.println();
 
+
+
     for(int i=numbers.length-1;i>=0;i--){
         System.out.print(numbers[i]);
     }
@@ -20,13 +22,30 @@ public class Ex11 {
     for(int i=0;i< numbers.length;i++){
         if(numbers[i]%2!=0){
         System.out.print(numbers[i]);
-    }
-    }
-    System.out.println();
+        }
+    }System.out.println();
 
-    int count;
+
+
+    int count =0;
     for(int i=0;i<numbers.length;i++){
-        if(numbers[i]%2==0)
+        if(numbers[i]%2==0){
+            count++;
+        
+        }
+
+    }System.out.println(count);
+
+    int max = numbers[0];
+        int min = numbers[0];
+        for (int i = 1; i < numbers.length; i++) {
+             if (numbers[i] > max) {
+                max = numbers[i];
+            }
+             if (numbers[i] < min) {
+                min = numbers[i];
+            }
+        }
+        System.out.println("最大値：" + max + "/最小値：" + min);
     }
-}
 }

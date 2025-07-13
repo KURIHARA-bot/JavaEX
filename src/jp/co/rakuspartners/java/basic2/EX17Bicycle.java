@@ -2,11 +2,12 @@ package jp.co.rakuspartners.java.basic2;
 
 public class EX17Bicycle {
     String bearing;
-    
-    void setBearing(String bearing){
-        this.bearing = bearing;
 
+    EX17Bicycle(String bearing){
+        this.bearing=bearing;
     }
+    
+    void setBearing(String bearing){}
 
     void turnLeft(){
         if(bearing.equals("北")){
