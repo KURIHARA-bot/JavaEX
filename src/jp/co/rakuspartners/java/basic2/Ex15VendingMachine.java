@@ -2,8 +2,8 @@ package jp.co.rakuspartners.java.basic2;
 
 public class Ex15VendingMachine {
     static final int PRICE =120;
-    int money;
-    int stock;
+    private int money;
+    private int stock;
     
     Ex15VendingMachine(int money,int stock){
         this.money = money;
@@ -31,11 +31,11 @@ public class Ex15VendingMachine {
         else if(this.money <= 0){
             System.out.println("お金を入れてください");
         }
-        else if(money < PRICE){
+        else if(money < Ex15VendingMachine.PRICE){
             System.out.println("お金が足りません。(現在の残高" + this.money + "円)");
 
         
-        }else{this.stock= stock-1;this.money= money - PRICE;
+        }else{this.stock= stock-1;this.money= money - Ex15VendingMachine.PRICE;
             {System.out.println("商品を購入しました");
         }
          if(this.stock ==0){

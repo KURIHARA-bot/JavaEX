@@ -4,10 +4,11 @@ public class Ex16Triathlete {
     String place;
     String tool;
 
-    Ex16Triathlete(){
-        this.place = "自宅";
-        this.tool = "手ぶら";}
 
+        public Ex16Triathlete(String place, String tool) {
+        this.place = place;
+        this.tool = tool;
+    }
         void move(String newPlace){
             if(place.equals(newPlace)){
                 System.out.println("既に" + place + "にいます");

@@ -26,5 +26,7 @@ public class Ex12Calculation {
              return num1 % num2;
            
           }
+
+        
  
     }
