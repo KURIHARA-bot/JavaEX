@@ -35,5 +35,11 @@ public class Car {
         System.out.println("スピードが" + speed +"Km/hに減りました");
     }
 
+    @Override
+    public String toString() {
+        return "Car [speed=" + speed + ", name=" + name + "]";
+    }
+
+    
     
     }

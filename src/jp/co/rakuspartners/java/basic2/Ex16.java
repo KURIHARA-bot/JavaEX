@@ -3,7 +3,7 @@ package jp.co.rakuspartners.java.basic2;
 public class Ex16 {
     public static void main(String[] args) {
         
-        Ex16Triathlete run = new Ex16Triathlete();
+        Ex16Triathlete run = new Ex16Triathlete("家","手ぶら");
 
         run.move("サイクリングロード");
         run.changeTool("自転車");
