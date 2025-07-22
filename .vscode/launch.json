@@ -1,0 +1,775 @@
+{
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "InsertExample",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic5.InsertExample",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex04",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.practice34.Ex04",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex06",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.practice34.Ex06",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex04",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.practice.Ex04",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex01",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.practice.Ex01",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "JavaEX_591d6c47",
+            "args": [
+                "引数1",
+                "引数２"
+            ]
+        },
+        {
+            "type": "java",
+            "name": "SelectSample",
+            "request": "launch",
+            "mainClass": "SelectSample",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex01",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam1.Ex01",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex02",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam1.Ex02",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex03",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam1.Ex03",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex04",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam1.Ex04",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex43",
+            "request": "launch",
+            "mainClass": "Ex43",
+            "projectName": "JavaEX_591d6c47",
+            "args": []
+        },
+        {
+            "type": "java",
+            "name": "Ex44",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam10.Ex44",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex45",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam10.Ex45",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex46",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam11.Ex46",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex47",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam11.Ex47",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex48",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam12.Ex48",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex49",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam12.Ex49",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex01(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam2.Ex01",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex02(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam2.Ex02",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex03(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam2.Ex03",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex04(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam2.Ex04",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex05",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam2.Ex05",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex01(2)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam3.Ex01",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex02(2)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam3.Ex02",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex03(2)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam3.Ex03",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex04(2)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam3.Ex04",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex05(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam3.Ex05",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex01(3)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam4.Ex01",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex02(3)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam4.Ex02",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex01(4)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam5.Ex01",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex02(4)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam5.Ex02",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex03(3)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam5.Ex03",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex04(3)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam5.Ex04",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex05(2)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam5.Ex05",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex06",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam5.Ex06",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex07",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam5.Ex07",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex08",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam5.Ex08",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex01(5)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam6.Ex01",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex02(5)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam6.Ex02",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex03(4)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam6.Ex03",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex04(4)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam6.Ex04",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex01(6)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam7.Ex01",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex02(6)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam7.Ex02",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex03(5)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam7.Ex03",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex01(7)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam8.Ex01",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex02(7)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam8.Ex02",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex03(6)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam8.Ex03",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex04(5)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam8.Ex04",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex05(3)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam8.Ex05",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex08(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam8.Ex08",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex09",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam8.Ex09",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex41",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam9.Ex41",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex42",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic.exam9.Ex42",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex01(8)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex01",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex02(8)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex02",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex03(7)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex03",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex04(6)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex04",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex05(4)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex05",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex07(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex07",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex08(2)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex08",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex10",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex10",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex11",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex11",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex12",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex12",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex13",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex13",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex15",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex15",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex16",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex16",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex17",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex17",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex18",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex18",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex19",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.Ex19",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "InstatiateCar2",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.InstatiateCar2",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "InstatiateTaxi",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.InstatiateTaxi",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "InstatiateTaxi2",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.InstatiateTaxi2",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "PassByReference",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.PassByReference",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "PassByValue",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic2.PassByValue",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex01(9)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic3.Ex01",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex02(9)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic3.Ex02",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex03(8)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic3.Ex03",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex05(5)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic3.Ex05",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex06(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic3.Ex06",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "InstantialTV",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic3.InstantialTV",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "InstatiateTaxi(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic3.InstatiateTaxi",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "InstatiateTaxi2(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic3.InstatiateTaxi2",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "StartApp",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic3.practice.Ex01.StartApp",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Zoo",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic3.practice.Ex02.Zoo",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "CollectionSample",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.CollectionSample",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "CollectionSample3",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.CollectionSample3",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex01(10)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex01",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex02(10)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex02",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex03(9)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex03",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex04(7)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex04",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex05(6)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex05",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex07(2)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex07",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex08(3)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex08",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex09(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex09",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex12(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex12",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex13(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex13",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex14",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex14",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex15(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex15",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex16(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex16",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex17(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex17",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex18(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex18",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex19(1)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex19",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex20",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex20",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex21",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex21",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex22",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic4.Ex22",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "Ex01(11)",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic5.Ex01",
+            "projectName": "JavaEX_591d6c47"
+        },
+        {
+            "type": "java",
+            "name": "LoadExample",
+            "request": "launch",
+            "mainClass": "jp.co.rakuspartners.java.basic5.LoadExample",
+            "projectName": "JavaEX_591d6c47"
+        }
+    ]
+}

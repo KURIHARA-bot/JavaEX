@@ -1,23 +1,35 @@
 package jp.co.rakuspartners.java.basic3;
 
-
+/**
+ * 車を表すクラスです
+ * 
+ * @author
+ */
 public class Car {
-    protected int speed;
-    protected String name;
+    int speed;
+    String name;
     
+    /**
+     * スピードを増やす
+     */
+    public void stepOnAccele() {
+        speed = speed + 10;
+        System.out.println("スピードが" + speed + "Km/hに増えました");
 
-    
-
-    protected void stepOnAccele(){
-        speed = speed +10;
-        System.out.println("スピードが" + speed +"Km/hに増えました");
-        
     }
-    
+
+    /**
+     * 
+     * @return
+     */
+
     public int getSpeed() {
         return speed;
     }
-
+     /**
+      * 
+      * @param speed
+      */
     public void setSpeed(int speed) {
         this.speed = speed;
     }
@@ -29,10 +41,13 @@ public class Car {
     public void setName(String name) {
         this.name = name;
     }
-
-    protected void stepOnBrake(){
-        speed = speed -10;
-        System.out.println("スピードが" + speed +"Km/hに減りました");
+    
+    /**
+     * スピードを減らします
+     */
+    public void stepOnBrake() {
+        speed = speed - 10;
+        System.out.println("スピードが" + speed + "Km/hに減りました");
     }
 
     @Override
@@ -40,6 +55,4 @@ public class Car {
         return "Car [speed=" + speed + ", name=" + name + "]";
     }
 
-    
-    
-    }
+}
