@@ -18,7 +18,7 @@ public class InsertExample {
     //先ほど作成したEntitiyをテーブル時に追加
 
     dao.insert(employee);
-    
+
 
 
 

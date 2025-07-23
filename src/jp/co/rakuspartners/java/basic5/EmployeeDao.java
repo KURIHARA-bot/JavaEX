@@ -4,6 +4,7 @@ import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
+import java.util.ArrayList;
 import java.util.List;
 
 public class EmployeeDao {
@@ -20,13 +21,14 @@ public class EmployeeDao {
     public Employee load(int id){
         Connection con = DBManager.createConnection();
 
-
+     //実行するSQL文
         String sql = "SELECT id,name,age,gender,department_id FROM "
         + TABLE_NAME + " WHERE id =?;";
 
         try{
             PreparedStatement pstmt= con.prepareStatement(sql);
             pstmt.setInt(1,id);
+            //SQLの実行
             ResultSet rs = pstmt.executeQuery();
 
             if(rs.next()){
@@ -50,11 +52,42 @@ public class EmployeeDao {
 
     }
 
+    /**
+     * 部署に所属している従業員一覧を取得する
+     * @param departmentId　部署ID
+     * @return 指定した部署に所属する従業員一覧
+     */
+    public List<Employee> findByDepartmentID(int departmentId){
+        Connection con = DBManager.createConnection();
+        //実行するSQL文
+        String sql = "SELECT id,name,gender,department_id FROM " + TABLE_NAME +" WHERE department_id=?;";
 
-    //public List<Employee> findByDepartmentID(int departmentId){
+        try{
+            PreparedStatement pstmt = con.prepareStatement(sql);
+            pstmt.setInt(1,departmentId);
+            ResultSet rs = pstmt.executeQuery();
+
+            List<Employee> list = new ArrayList<>();
+
+            while(rs.next()){
+                Employee employee = new Employee();
+                employee.setId(rs.getInt("id"));
+                employee.setName(rs.getString("name"));
+                employee.setGender(rs.getString("gender"));
+                employee.setDapartmantID(rs.getInt("department_id"));
+                //EntityをArrayListに追加
+                list.add(employee);
+           }return list;
+        }catch(SQLException e){
+            System.err.println("SQL="+sql);
+            throw new RuntimeException("検索処理に失敗しました");
+
+        }finally{
+            DBManager.closeConnection(con);
+        }
         
 
-    //}
+    }
     
     /**
      * 従業員情報の追加
@@ -65,8 +98,8 @@ public class EmployeeDao {
         Connection con = DBManager.createConnection();
 
         String sql = "INSERT INTO "+ TABLE_NAME
-        + "(       name,age,gender,department_id)"
-        + "VALUES(    ?,  ?,    ?,             ?)";
+        + "(name,age,gender,department_id)"
+        + "VALUES(?, ?, ?, ?)";
 
         try{
             PreparedStatement pstmt = con.prepareStatement(sql);
@@ -92,9 +125,18 @@ public class EmployeeDao {
 
     }
 
-    //public int update(Employee employee){
+    public int update(Employee employee){
+        Connection con = DBManager.createConnection();
 
-   //}
+        String sql = "UPDATE " + TABLE_NAME +" SET name =?,age=?,gender=?,department_id=?, WHERE id =?";
+
+        try{
+            PreparedStatement pstmt = con.prepareStatement(sql);
+            
+        }
+
+
+   }
 
     //public int deleteByDepartmentId(int departmentId){
 
