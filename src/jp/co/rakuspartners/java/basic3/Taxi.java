@@ -9,8 +9,7 @@ public class Taxi extends Car{
     }
 
     @Override
-
-    protected void stepOnAccele(){
+    public void stepOnAccele(){
         // speed =speed+10;
         // System.out.println("スピードが" + speed +"Km/hに増えました");
         super.stepOnAccele();
